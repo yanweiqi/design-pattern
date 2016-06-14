@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="templatemethod">
+ <role name="AbstractClass">
+  <member name="AbstractClass" package="com.behavioral.templatemethod.first" project="dp"/>
+ </role>
+ <role name="ConcreteClass">
+  <member name="ConcreteClass" package="com.behavioral.templatemethod.first" project="dp"/>
+ </role>
+</pattern>

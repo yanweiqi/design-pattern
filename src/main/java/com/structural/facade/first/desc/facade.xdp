@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="facade">
+ <role name="Facade">
+  <member name="Facade" package="com.structural.facade" project="Patter_demo"/>
+ </role>
+ <role name="Subsystem">
+  <member name="Subsystem" package="com.structural.facade" project="Patter_demo"/>
+ </role>
+</pattern>

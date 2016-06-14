@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="command">
+ <role name="Command">
+  <member name="Command" package="com.demo.patter" project="Patter_demo"/>
+ </role>
+ <role name="ConcreteCommand">
+  <member name="ConcreteCommand" package="com.demo.patter" project="Patter_demo"/>
+ </role>
+ <role name="Client">
+  <member name="CommondClient" package="com.demo.patter.clinet" project="Patter_demo"/>
+ </role>
+ <role name="Invoker">
+  <member name="Invoker" package="com.demo.patter" project="Patter_demo"/>
+ </role>
+ <role name="Receiver">
+  <member name="Receiver" package="com.demo.patter" project="Patter_demo"/>
+ </role>
+</pattern>

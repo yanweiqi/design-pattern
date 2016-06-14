@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="prototype">
+ <role name="Prototype">
+  <member name="Prototype" package="com.factory.patter" project="Patter_demo"/>
+ </role>
+ <role name="ConcretePrototype">
+  <member name="ConcretePrototype" package="com.factory.patter.impl" project="Patter_demo"/>
+ </role>
+ <role name="Client">
+  <member name="Client" package="com.factory.patter.client" project="Patter_demo"/>
+ </role>
+</pattern>

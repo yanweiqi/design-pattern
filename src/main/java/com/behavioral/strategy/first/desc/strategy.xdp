@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="strategy">
+ <role name="Strategy">
+ </role>
+ <role name="ConcreteStrategy">
+ </role>
+ <role name="Context">
+ </role>
+</pattern>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="iterator">
+ <role name="Iterator">
+  <member name="Iterator" package="com.behavioral.iterator" project="Patter_demo"/>
+ </role>
+ <role name="ConcreteIterator">
+  <member name="ConcreteIterator" package="com.behavioral.iterator.impl" project="Patter_demo"/>
+ </role>
+ <role name="Aggregate">
+  <member name="Aggregate" package="com.behavioral.iterator" project="Patter_demo"/>
+ </role>
+ <role name="ConcreteAggregate">
+  <member name="ConcreteAggregate" package="com.behavioral.iterator.impl" project="Patter_demo"/>
+ </role>
+</pattern>
