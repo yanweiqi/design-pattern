@@ -1,10 +1,10 @@
 /**  
  * @project:Patter_demo
  * @package:com.behavioral.iterator.impl
- * @file£ºConcreteAggregate.java  
+ * @fileï¿½ï¿½ConcreteAggregate.java  
  * @author:yanweiqi@yeah.net 
- * @version£º  
- * @since£º2013-5-27  
+ * @versionï¿½ï¿½  
+ * @sinceï¿½ï¿½2013-5-27  
  * @copyright xxx
  */
 package com.behavioral.iterator.first.impl;
@@ -30,7 +30,6 @@ public class ConcreteAggregate<T> implements Aggregate<T> {
 
 
 	@SuppressWarnings("unchecked")
-    @Override
     public void append(Object obj) {
 		itemList.add((T)obj);
 	}

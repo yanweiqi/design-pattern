@@ -10,16 +10,14 @@ public class ChainBefore {
 	
 	static class IR implements Image{
 
-		@Override
-        public String process() {
+		public String process() {
 	        return "IR";
         }
 	}
 
 	static class LS implements Image{
 
-		@Override
-        public String process() {
+		public String process() {
 	        return "LS";
         }
 	}

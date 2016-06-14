@@ -5,8 +5,8 @@
   <artifactId>dp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <name>design-pattern-demo</name>
-  <description>设计模式总结与学习&ywq</description>
+  <name>design-pattern</name>
+  <description>设计模式总结</description>
   
    
   <properties>

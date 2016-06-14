@@ -7,9 +7,12 @@ import com.behavioral.visitor.first.impl.Mouse;
 
 public interface ComputerPartVisitor {
 	
-	public void visit(Computer computer);
-	public void visit(Mouse mouse);
-	public void visit(Keyboard keyboard);
-	public void visit(Monitor monitor);
+	void visit(Computer computer);
+	
+	void visit(Mouse mouse);
+	
+	void visit(Keyboard keyboard);
+	
+	void visit(Monitor monitor);
 	
 }
